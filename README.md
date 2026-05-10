@@ -2,7 +2,6 @@
 All of my programs that are being worked on live!
 Basicly a testing/unstable REPO for all my stuff.
 
-# what you can find:
 
 ===============
 == Optibuntu ==
