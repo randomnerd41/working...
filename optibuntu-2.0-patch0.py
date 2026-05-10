@@ -11,6 +11,7 @@ import shutil
 # Version 2.0-patch0
 # FOSS - AGPL 3.0 
 # made by classiccatlinux (randomnerd41).
+# status: bug checking.
 
 # == config ==
 devmode = True
