@@ -1,25 +1,22 @@
-# working...
+# Working...
 All of my programs that are being worked on live!
 
-Basicly a testing/unstable REPO for all my stuff.
+alpha, beta, and up-comming versions of my programs!
 
-# whats in here
+Some programs in here are 
+so new that thay dont even
+have a github repo yet.
 
-Optibuntu:
+All software in this repo
 
-My program that
-makes debian/ubuntu
+is Free and opensource software!
 
-based linux systems 
-even faster.
+some may have: GPL 2.0, GPL 3.0
 
-PISTION:
+MIT and AGPL 3.0...
 
-A python module
-for linux that
+All software in this 
 
-does not have its 
-own github REPO
+repo is also made by
 
-yet and is stil
-being worked on.
+classiccatlinux (randomnerd41).
