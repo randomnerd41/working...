@@ -11,7 +11,7 @@ import shutil
 # Version 2.0
 # FOSS - AGPL 3.0 
 # made by classiccatlinux (randomnerd41).
-# status: NOW STABLE!
+# status: now stable! moving to optibuntu repo...
 
 # == config ==
 devmode = False
