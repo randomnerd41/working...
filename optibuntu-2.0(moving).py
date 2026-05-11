@@ -3,9 +3,9 @@ import time
 import sys
 import shutil
 
-# =============
-#   Optibuntu
-# =============
+# ===============
+# == Optibuntu ==
+# =============== 
 
 # info:
 # Version 2.0
