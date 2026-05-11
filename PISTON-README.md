@@ -4,10 +4,21 @@
 # how to use
 first make your python project file,
 then put PISTON.py in the same folder 
+
 as your main file you want to use the module in.
 next at the very top of your main file type this:
 
 ```
 from PISTON import *
 ```
+
 ***this will import: time, os, and sys***
+
+# info:
+made by classiccatlinux (randomnerd41).
+
+FOSS - GPL 2.0
+
+python module for linux
+
+systems.
