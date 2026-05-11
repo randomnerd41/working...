@@ -4,7 +4,8 @@ pipeline:
 ***alphas*** --> betas + repo --> first stable.
 
 # whats new 
-**V alpha_patch2:**
+**in version alpha_patch2:**
+
 added more debian options
 
 added fedora suport
