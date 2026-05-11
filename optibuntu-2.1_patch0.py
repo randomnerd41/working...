@@ -2,6 +2,7 @@ import os
 import time
 import sys
 import shutil
+import subprocess
 
 # ===============
 # == Optibuntu ==
@@ -11,11 +12,10 @@ import shutil
 # Version 2.1-patch0
 # FOSS - AGPL 3.0 
 # made by classiccatlinux (randomnerd41).
-# status: just added to working...
-# no edits vs 2.0 yet.
+# status: working...
 
 # == config ==
-devmode = False
+devmode = True
 
 # OS check
 if not devmode:
@@ -106,8 +106,7 @@ in2 = input("yes or no: ")
 
 if in2 == "yes":
     if shutil.which("systemctl"):
-        os.system("sudo systemctl disable bluetooth && sudo systemctl disable cups && sudo apt remove bluez blueman -y")
-        os.system("clear")
+        subprocess.run(["sudo systemctl disable bluetooth && sudo systemctl disable cups && sudo apt remove bluez blueman -y"])
     else:
         print("Systemd not detected, unable to disable bluetooth/printing.")
         time.sleep(5)
@@ -175,9 +174,9 @@ print("this may take some time...")
 print("////////////////////////////////")
 time.sleep(2)
 os.system('clear')
-os.system("sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y")
+subprocess.run(["sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y"])
 if shutil.which("systemctl"):
-    os.system("sudo apt install preload earlyoom -y && sudo apt install zram-tools -y && sudo systemctl enable zramswap && sudo systemctl start zramswap")    
+    subprocess.run(["sudo apt install preload earlyoom -y && sudo apt install zram-tools -y && sudo systemctl enable zramswap && sudo systemctl start zramswap"])   
 
 # End
 os.system("clear")
