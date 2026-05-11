@@ -9,7 +9,7 @@ import sys
 # alpha_patch0
 # FOSS - AGPL 3.0
 # classiccatlinux (randomnerd41)
-# status: updating.
+# status: old patch
 
 def clear():
     if sys.platform == "win32":
