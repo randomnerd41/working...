@@ -9,15 +9,9 @@ have a github repo yet.
 
 # info:
 All software in this repo
-
-is Free and opensource software!
-
-some may have: GPL 2.0, GPL 3.0
-
-MIT and AGPL 3.0...
+is Free and opensource Software!
 
 All software in this 
-
-repo is also made by
+repo is made by
 
 classiccatlinux (randomnerd41).
