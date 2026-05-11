@@ -8,13 +8,13 @@ import shutil
 # =============
 
 # info:
-# Version 2.0-patch0
+# Version 2.0
 # FOSS - AGPL 3.0 
 # made by classiccatlinux (randomnerd41).
-# status: bug checking.
+# status: NOW STABLE!
 
 # == config ==
-devmode = True
+devmode = False
 
 # OS check
 if not devmode:
@@ -38,7 +38,7 @@ if not devmode:
     print("===============")
     print("== Optibuntu ==")
     print("===============")
-    print("v2.0-patch0 - classiccatlinux")
+    print("v2.0 - classiccatlinux")
     in1 = input("start? (y/n): ")
     os.system('clear')
 
