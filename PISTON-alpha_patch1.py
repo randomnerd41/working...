@@ -9,7 +9,7 @@ import sys
 # alpha_patch1
 # FOSS - AGPL 3.0
 # classiccatlinux (randomnerd41)
-# status: updating.
+# status: old patch
 
 
 def update_debian_sudo():
