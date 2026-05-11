@@ -39,7 +39,7 @@ if not devmode:
     print("===============")
     print("== Optibuntu ==")
     print("===============")
-    print("v2.0 - classiccatlinux")
+    print("v2.1_patch0 - classiccatlinux")
     in1 = input("start? (y/n): ")
     os.system('clear')
 
